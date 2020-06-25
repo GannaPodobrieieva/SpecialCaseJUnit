@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Application Test(failed)">
+    <classes>
+      <class name="regressionsuite.NewTest">
+        <methods>
+          <include name="monitorLinkMenuFooterTest"/>
+          <include name="monitorMainIconExistenceTest"/>
+          <include name="monitorClickLinkMenuFooterTest"/>
+        </methods>
+      </class> <!-- regressionsuite.NewTest -->
+      <class name="regressionsuite.NewTest2">
+        <methods>
+          <include name="monitorMainIconExistenceTest"/>
+          <include name="monitorCurrentUrlToExpectedTest"/>
+          <include name="monitorExistenceNameSubTabMenuTest"/>
+          <include name="monitorExistenceNameTabMenuTest"/>
+        </methods>
+      </class> <!-- regressionsuite.NewTest2 -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->
